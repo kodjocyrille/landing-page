@@ -59,3 +59,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('CHARM landing page interactive features initialized');
 });
+
+// --- Loading Screen Handler ---
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader-wrapper');
+    const body = document.body;
+    
+    // Minimal delay to ensure smooth transition
+    setTimeout(() => {
+        if (loader) {
+            loader.classList.add('loader-hidden');
+        }
+        body.classList.remove('no-scroll');
+        
+        // Cleanup: Remove loader from DOM after transition
+        setTimeout(() => {
+            if (loader) {
+                loader.remove();
+            }
+        }, 800);
+    }, 600);
+});

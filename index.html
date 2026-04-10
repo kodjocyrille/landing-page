@@ -7,7 +7,15 @@
   <meta name="description" content="Avec CHARM découvre les meilleurs salons de beauté à proximité de toi et réserve tes soins beauté: coiffure, manucure, pédicure, maquillage, massage et spa. Disponible sur Android et iOS." />
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="no-scroll">
+  <div id="loader-wrapper">
+    <div class="loader-container">
+      <div class="loader-logo-wrap">
+        <div class="loader-ring"></div>
+        <img src="assets/site-logo1.png" alt="Charm Logo" class="loader-logo">
+      </div>
+    </div>
+  </div>
   <header class="site-header">
     <div class="container header-wrap">
       <a href="#top" class="brand" aria-label="CHARM accueil">
@@ -38,10 +46,14 @@
           <div class="cta-group">
             <div class="store-row" id="download">
               <div class="store-badges">
-                <a href="https://onelink.to/w2ggfp" class="store-badge" aria-label="Google Play">
+                <a href="https://play.google.com/store/apps/details?id=com.bhc.barbershop.barbershpo_flutter" class="store-badge" aria-label="Google Play">
                   <img src="assets/google-play-5.svg" alt="Google Play" class="store-icon">
                   <span>Google Play</span>
                 </a>
+                <!-- <a href="https://onelink.to/w2ggfp" class="store-badge" aria-label="Google Play">
+                  <img src="assets/google-play-5.svg" alt="Google Play" class="store-icon">
+                  <span>Google Play</span>
+                </a> -->
                 <a href="https://apps.apple.com/us/app/charm/id6744846275" class="store-badge" aria-label="App Store">
                   <img src="assets/apple-app-store.svg" alt="App Store" class="store-icon">
                   <span>App Store</span>
@@ -130,7 +142,7 @@
             <h2>1000 FCFA OFFERTS</h2>
             <p>Sur ta première réservation via CHARM. Une offre simple pour déclencher le premier passage à l’action.</p>
           </div>
-          <a href="#download" class="btn btn-primary">Je réserve maintenant</a>
+          <a href="https://onelink.to/w2ggfp" class="btn btn-primary">Je réserve maintenant</a>
         </div>
       </div>
     </section>
