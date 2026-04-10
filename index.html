@@ -6,6 +6,24 @@
   <title>CHARM - Réserve tes soins beauté en un clic! </title>
   <meta name="description" content="Avec CHARM découvre les meilleurs salons de beauté à proximité de toi et réserve tes soins beauté: coiffure, manucure, pédicure, maquillage, massage et spa. Disponible sur Android et iOS." />
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1484481789729022');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1484481789729022&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 <body class="no-scroll">
   <div id="loader-wrapper">
@@ -16,6 +34,12 @@
       </div>
     </div>
   </div>
+  <aside class="promo-banner">
+    <div class="marquee-content">
+      🎁 1000 FCFA offerts sur ta première réservation — ⏱️ Zéro attente — ⚠️ Valable aujourd'hui — 🎁 1000 FCFA offerts sur ta première réservation — ⏱️ Zéro attente — ⚠️ Valable aujourd'hui
+    </div>
+  </aside>
+
   <header class="site-header">
     <div class="container header-wrap">
       <a href="#top" class="brand" aria-label="CHARM accueil">
@@ -39,13 +63,13 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-card">
-          <h1>Réserve tes soins <span class="accent">beauté</span> en quelques clics</h1>
+          <h1>Réserve ton soin <span class="accent">beauté</span> en quelques clics</h1>
           <p class="lead">
             Coiffure, manucure, pédicure, maquillage, massage, spa… Trouve les meilleurs salons et réserve facilement en quelques clics avec CHARM.
           </p>
           <div class="cta-group">
             <div class="store-row" id="download">
-              <p class="store-hint"> Clic pour télécharger</p>
+              <p class="store-hint"> RÉSERVE MAINTENANT <span class="hint-accent">1000 FCFA offerts</span></p>
               <div class="store-badges">
                 <a href="https://play.google.com/store/apps/details?id=com.bhc.barbershop.barbershpo_flutter" class="store-badge" aria-label="Google Play">
                   <img src="assets/google-play-5.svg" alt="Google Play" class="store-icon">
@@ -60,13 +84,17 @@
                   <span>App Store</span>
                 </a>
               </div>
+              <div class="trust-row">
+                <span class="trust-item">✨ +500 utilisatrices conquises</span>
+                <span class="trust-item">🏠 +40 salons actifs à Lomé</span>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="hero-images-area" aria-label="Images professionnelles">
           <img src="assets/image.png" alt="Beauté et bien-être" class="hero-img main">
-          <img src="assets/image.png" alt="Service beauté" class="hero-img sub">
+          <img src="assets/charm-3.png" alt="Service beauté" class="hero-img sub">
         </div>
       </div>
     </section>
@@ -102,7 +130,7 @@
           <article class="card service-card">
             <div class="service-image" style="background-image:url('assets/spa-massage.jpeg');"></div>
             <div class="service-body">
-              <h3 class="service-title">Massage & spa</h3>
+              <h3 class="service-title">Massage & Spa</h3>
               <p class="service-text">Accorde-toi un moment de détente avec un massage ou une expérience spa sans complication.</p>
             </div>
           </article>
@@ -157,18 +185,18 @@
         <div class="steps-grid">
           <article class="card step-card">
             <div class="step-number">1</div>
-            <h3>Télécharge CHARM</h3>
-            <p>Accède à l’application sur Android ou iOS selon ton téléphone.</p>
+            <h3>Choisis ton salon</h3>
+            <p>Découvre les meilleurs talents autour de toi selon tes envies et ton budget.</p>
           </article>
           <article class="card step-card">
             <div class="step-number">2</div>
-            <h3>Inscris-toi</h3>
-            <p>Crée ton compte rapidement pour accéder aux salons et aux créneaux disponibles.</p>
+            <h3>Réserve en 2 clics</h3>
+            <p>Bloque ton créneau instantanément. Plus besoin d'appeler ou d'attendre sur place.</p>
           </article>
           <article class="card step-card">
             <div class="step-number">3</div>
-            <h3>Réserve ton rendez-vous</h3>
-            <p>Choisis ton service, confirme et profite de ton avantage sur la première réservation.</p>
+            <h3>Rayonne maintenant</h3>
+            <p>Arrive à l'heure, ton professionnel t'attend. Profite de tes 1000 FCFA offerts.</p>
           </article>
         </div>
       </div>
